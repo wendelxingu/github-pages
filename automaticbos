@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatic Bots - Automações Inteligentes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .intro, .services, .about, .contact {
+            margin-bottom: 40px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services ul li {
+            background-color: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form input, .contact form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Automatic Bots</h1>
+        <p>Soluções de Automação para Atendimento</p>
+    </header>
+
+    <nav>
+        <a href="#intro">Início</a>
+        <a href="#services">Serviços</a>
+        <a href="#about">Sobre Nós</a>
+        <a href="#contact">Contato</a>
+    </nav>
+
+    <div class="container">
+        <section id="intro" class="intro">
+            <h2>Bem-vindo à Automatic Bots</h2>
+            <p>Oferecemos soluções de automação inteligente para otimizar o atendimento ao cliente e melhorar a eficiência operacional da sua empresa.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Chatbots para Atendimento ao Cliente</li>
+                <li>Automação de Processos Internos</li>
+                <li>Integração com Sistemas de CRM</li>
+                <li>Análise de Dados e Relatórios Automatizados</li>
+            </ul>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <p>A Automatic Bots é uma empresa especializada em desenvolver soluções de automação personalizadas para empresas de todos os tamanhos. Nossa missão é simplificar processos complexos e melhorar a experiência do cliente.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Automatic Bots. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
